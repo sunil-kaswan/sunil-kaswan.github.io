@@ -66,8 +66,8 @@
       $mail->isSMTP();
       $mail->Host       = 'smtp.gmail.com';
       $mail->SMTPAuth   = true;
-      $mail->Username   = 'kaswansunil26@gmail.com';  // Your Gmail address
-      $mail->Password   = 'rtzlehhixczhdkby';         // Gmail App Password (generate from Google Account settings)
+      $mail->Username   = '';  // Your Gmail address
+      $mail->Password   = '';         // Gmail App Password (generate from Google Account settings)
       $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
       $mail->Port       = 587;
       $mail->CharSet    = 'UTF-8';
